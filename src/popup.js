@@ -29,7 +29,7 @@ async function getOpenAIResponse(prompt) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer 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` // Never expose this in frontend code!
+      "Authorization": `Bearer API_KEY`
     },
     body: JSON.stringify({
       model: "gpt-4o-mini-2024-07-18",
