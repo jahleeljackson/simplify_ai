@@ -1,0 +1,15 @@
+{
+    "name" : "SimplifyAI!",
+    "description" : "Extension that simplifies pasted text.",
+    "version" : "1.0",
+    "manifest_version" : 3, 
+    "action" :{
+        "default_popup" : "index.html",
+        "default_icon" : "static/logo.png"
+    },
+    "icons":{"48": "static/logo.png"},
+    "host_permissions": ["<all_urls>"],
+    "permissions": [
+        "clipboardRead"
+    ]
+}
