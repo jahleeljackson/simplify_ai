@@ -25,7 +25,10 @@ To run the project, follow these instructions:
 2. Navigate to [chrome://extensions/](chrome://extensions/) in a chrome browser. 
 3. Toggle 'Develop Mode' to on in the top-right corner.
 4. Press 'Load Unpacked' in the top-left corner, under Extensions. 
-5. Navigate to the directory you cloned the repository in. Then, select /src to unpack the extension from. 
+5. Navigate to the directory you cloned the repository in. Then, select /src to unpack the extension from.
+
+### Note:
+In order to actually use the extension, user's will need to create their own API key on [OpenAI's API Platform](https://platform.openai.com/api-keys) and finance their usage.
 
 Congratulations! You can now open the extension app in your browser the same as any other.
 ## Resources used
